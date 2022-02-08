@@ -51,7 +51,7 @@ export const useTooltipContentProps = {
     disabled: {
       type: Boolean,
     },
-  }),
+  } as const),
 }
 
 export const useTooltipTriggerProps = {
